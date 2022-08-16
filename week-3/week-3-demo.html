@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+    <style media="screen">
+        .home{
+            fill:orange;
+            opacity: 30%;
+        }
+        .work{
+            fill:cyan;
+            opacity: 30%;
+        }
+        .park{
+            fill:green;
+            opacity: 30%;
+        }
+        .shop{
+            fill:gold;
+            opacity: 30%;
+        }
+        .workPolyline{
+            fill:none;
+            stroke: blue;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <script src="homedata.json" >
+        
+    dw = 1100;
+    dh = 500;
+    var draw = SVG().addTo("body").size(dw,dh);
+
+    var colwidth = 2;
+    var colspacing = 3
+    var yscale = 2;
+    var lscale = yscale*-1;
+    var baseline = 100;
+    var baseline2 = 200;
+    var line_points = [];
+
+    data.forEach((d,i) => {
+        // d is data i is index
+        if (d.Work >= 0) {
+            recth = d.Work*yscale;
+            draw.rect(colwidth, recth)
+            .move(i * colspacing, baseline - recth)
+            .addClass("work");
+        } else {
+            recth = d.Work*yscale*-1;
+            draw.rect(colwidth, recth)
+            .move(i*colspacing,baseline)
+            .addClass("work");
+        }
+        
+        if (d.Residential >= 0) {
+            recth = d.Residential*yscale;
+            draw.rect(colwidth, recth)
+            .move(i * colspacing, baseline - recth)
+            .addClass("home");
+        } else {
+            recth = d.Residential*yscale*-1;
+            draw.rect(colwidth, recth)
+            .move(i*colspacing,baseline)
+            .addClass("home");
+        }
+
+        if (d.Parks >= 0) {
+            recth = d.Parks*yscale;
+            draw.rect(colwidth, recth)
+            .move(i * colspacing, baseline - recth)
+            .addClass("park");
+        } else {
+            recth = d.Parks*yscale*-1;
+            draw.rect(colwidth, recth)
+            .move(i*colspacing,baseline)
+            .addClass("park");
+        }
+
+        if (d.Retail >= 0) {
+            recth = d.Retail*yscale;
+            draw.rect(colwidth, recth)
+            .move(i * colspacing, baseline - recth)
+            .addClass("shop");
+        } else {
+            recth = d.Retail*yscale*-1;
+            draw.rect(colwidth, recth)
+            .move(i*colspacing,baseline)
+            .addClass("shop");
+        }
+    })
+
+    /*
+    data.forEach((d,i) => {
+        var xp = i * colspacing;
+        var yp = baseline + d.Work*lscale;
+        line_points.push([xp,yp]);
+    })
+
+    draw.polyline(line_points)
+    .addClass("workPolyline");*/
+
+    draw.line(0,baseline,dw,baseline).stroke("black");
+
+    </script>
+</body>
+</html>

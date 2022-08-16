@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello SVG.js!</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+
+    <style media="screen">
+        .month_label{
+            font-family: Arial, Helvetica, sans-serif;
+            size:5;
+            text-anchor: middle;
+            fill:black;
+        }
+        .year_label{
+            font-family: Arial, Helvetica, sans-serif;
+            size:30;
+            text-anchor: middle;
+            fill:black;
+        }
+        .line{
+            fill:none;
+            stroke:black;
+        }
+    </style>
+  </head>
+  <body>
+
+
+<h1>Data vis with <a href="http://svgjs.com">SVG.js</a></h1>
+
+
+      <script type="text/javascript">
+        var w = 500
+        var h = 500
+      var draw = SVG().addTo('body').size(w, h);
+      // this data is NSW / ACT solar power output in MWh
+      // since April 2015
+      // from http://pv-map.apvi.org.au/data/states/output.csv
+      // reformatted as an array of js objects
+      // I used csv2json for this https://csvjson.com/csv2json
+      var data = [
+      {
+        "Year": 2015,
+        "Month": 4,
+        "Output": 26908
+      },
+      {
+        "Year": 2015,
+        "Month": 5,
+        "Output": 26233
+      },
+      {
+        "Year": 2015,
+        "Month": 6,
+        "Output": 22776
+      },
+      {
+        "Year": 2015,
+        "Month": 7,
+        "Output": 27480
+      },
+      {
+        "Year": 2015,
+        "Month": 8,
+        "Output": 33641
+      },
+      {
+        "Year": 2015,
+        "Month": 9,
+        "Output": 43668
+      },
+      {
+        "Year": 2015,
+        "Month": 10,
+        "Output": 59592
+      },
+      {
+        "Year": 2015,
+        "Month": 11,
+        "Output": 112138
+      },
+      {
+        "Year": 2015,
+        "Month": 12,
+        "Output": 127801
+      },
+      {
+        "Year": 2016,
+        "Month": 1,
+        "Output": 114781
+      },
+      {
+        "Year": 2016,
+        "Month": 2,
+        "Output": 123790
+      },
+      {
+        "Year": 2016,
+        "Month": 3,
+        "Output": 110596
+      },
+      {
+        "Year": 2016,
+        "Month": 4,
+        "Output": 87784
+      },
+      {
+        "Year": 2016,
+        "Month": 5,
+        "Output": 80255
+      },
+      {
+        "Year": 2016,
+        "Month": 6,
+        "Output": 57583
+      },
+      {
+        "Year": 2016,
+        "Month": 7,
+        "Output": 71622
+      },
+      {
+        "Year": 2016,
+        "Month": 8,
+        "Output": 91463
+      },
+      {
+        "Year": 2016,
+        "Month": 9,
+        "Output": 104705
+      },
+      {
+        "Year": 2016,
+        "Month": 10,
+        "Output": 140382
+      },
+      {
+        "Year": 2016,
+        "Month": 11,
+        "Output": 151346
+      },
+      {
+        "Year": 2016,
+        "Month": 12,
+        "Output": 138454
+      },
+      {
+        "Year": 2017,
+        "Month": 1,
+        "Output": 138378
+      },
+      {
+        "Year": 2017,
+        "Month": 2,
+        "Output": 121971
+      },
+      {
+        "Year": 2017,
+        "Month": 3,
+        "Output": 100637
+      },
+      {
+        "Year": 2017,
+        "Month": 4,
+        "Output": 109354
+      },
+      {
+        "Year": 2017,
+        "Month": 5,
+        "Output": 90740
+      },
+      {
+        "Year": 2017,
+        "Month": 6,
+        "Output": 71616
+      },
+      {
+        "Year": 2017,
+        "Month": 7,
+        "Output": 98826
+      },
+      {
+        "Year": 2017,
+        "Month": 8,
+        "Output": 126117
+      },
+      {
+        "Year": 2017,
+        "Month": 9,
+        "Output": 151691
+      },
+      {
+        "Year": 2017,
+        "Month": 10,
+        "Output": 155113
+      },
+      {
+        "Year": 2017,
+        "Month": 11,
+        "Output": 169479
+      },
+      {
+        "Year": 2017,
+        "Month": 12,
+        "Output": 170763
+      },
+      {
+        "Year": 2018,
+        "Month": 1,
+        "Output": 182444
+      },
+      {
+        "Year": 2018,
+        "Month": 2,
+        "Output": 156885
+      },
+      {
+        "Year": 2018,
+        "Month": 3,
+        "Output": 155202
+      },
+      {
+        "Year": 2018,
+        "Month": 4,
+        "Output": 137954
+      },
+      {
+        "Year": 2018,
+        "Month": 5,
+        "Output": 122290
+      },
+      {
+        "Year": 2018,
+        "Month": 6,
+        "Output": 91638
+      },
+      {
+        "Year": 2018,
+        "Month": 7,
+        "Output": 131253
+      },
+      {
+        "Year": 2018,
+        "Month": 8,
+        "Output": 154691
+      },
+      {
+        "Year": 2018,
+        "Month": 9,
+        "Output": 178965
+      },
+      {
+        "Year": 2018,
+        "Month": 10,
+        "Output": 182863
+      },
+      {
+        "Year": 2018,
+        "Month": 11,
+        "Output": 213790
+      },
+      {
+        "Year": 2018,
+        "Month": 12,
+        "Output": 286673
+      },
+      {
+        "Year": 2019,
+        "Month": 1,
+        "Output": 281183
+      },
+      {
+        "Year": 2019,
+        "Month": 2,
+        "Output": 253926
+      },
+      {
+        "Year": 2019,
+        "Month": 3,
+        "Output": 228867
+      },
+      {
+        "Year": 2019,
+        "Month": 4,
+        "Output": 214843
+      },
+      {
+        "Year": 2019,
+        "Month": 5,
+        "Output": 188533
+      },
+      {
+        "Year": 2019,
+        "Month": 6,
+        "Output": 148711
+      },
+      {
+        "Year": 2019,
+        "Month": 7,
+        "Output": 191791
+      },
+      {
+        "Year": 2019,
+        "Month": 8,
+        "Output": 241198
+      },
+      {
+        "Year": 2019,
+        "Month": 9,
+        "Output": 279723
+      },
+      {
+        "Year": 2019,
+        "Month": 10,
+        "Output": 341440
+      },
+      {
+        "Year": 2019,
+        "Month": 11,
+        "Output": 367906
+      },
+      {
+        "Year": 2019,
+        "Month": 12,
+        "Output": 372239
+      },
+      {
+        "Year": 2020,
+        "Month": 1,
+        "Output": 337058
+      },
+      {
+        "Year": 2020,
+        "Month": 2,
+        "Output": 293496
+      },
+      {
+        "Year": 2020,
+        "Month": 3,
+        "Output": 297411
+      },
+      {
+        "Year": 2020,
+        "Month": 4,
+        "Output": 262901
+      },
+      {
+        "Year": 2020,
+        "Month": 5,
+        "Output": 238584
+      },
+      {
+        "Year": 2020,
+        "Month": 6,
+        "Output": 208625
+      },
+      {
+        "Year": 2020,
+        "Month": 7,
+        "Output": 227768
+      },
+      {
+        "Year": 2020,
+        "Month": 8,
+        "Output": 320799
+      },
+      {
+        "Year": 2020,
+        "Month": 9,
+        "Output": 370755
+      },
+      {
+        "Year": 2020,
+        "Month": 10,
+        "Output": 412445
+      },
+      {
+        "Year": 2020,
+        "Month": 11,
+        "Output": 490221
+      },
+      {
+        "Year": 2020,
+        "Month": 12,
+        "Output": 444299
+      },
+      {
+        "Year": 2021,
+        "Month": 1,
+        "Output": 497458
+      },
+      {
+        "Year": 2021,
+        "Month": 2,
+        "Output": 413495
+      },
+      {
+        "Year": 2021,
+        "Month": 3,
+        "Output": 394137
+      },
+      {
+        "Year": 2021,
+        "Month": 4,
+        "Output": 421061
+      },
+      {
+        "Year": 2021,
+        "Month": 5,
+        "Output": 328524
+      },
+      {
+        "Year": 2021,
+        "Month": 6,
+        "Output": 261763
+      },
+      {
+        "Year": 2021,
+        "Month": 7,
+        "Output": 315510
+      },
+      {
+        "Year": 2021,
+        "Month": 8,
+        "Output": 420168
+      },
+      {
+        "Year": 2021,
+        "Month": 9,
+        "Output": 509686
+      },
+      {
+        "Year": 2021,
+        "Month": 10,
+        "Output": 592854
+      },
+      {
+        "Year": 2021,
+        "Month": 11,
+        "Output": 472568
+      },
+      {
+        "Year": 2021,
+        "Month": 12,
+        "Output": 621523
+      },
+      {
+        "Year": 2022,
+        "Month": 1,
+        "Output": 590399
+      },
+      {
+        "Year": 2022,
+        "Month": 2,
+        "Output": 497991
+      },
+      {
+        "Year": 2022,
+        "Month": 3,
+        "Output": 442790
+      },
+      {
+        "Year": 2022,
+        "Month": 4,
+        "Output": 405840
+      },
+      {
+        "Year": 2022,
+        "Month": 5,
+        "Output": 345857
+      }
+      ];
+
+      var total = data.length;
+      var xspace = ((w - total )/ total);
+      var xnum = w / xspace;
+      var baseline = 450;
+      var yscale = 0.0006;
+
+      for (j = 1; j < xnum; j++) {
+        var x0 = (j*(xspace+1))-0.5;
+        var y0 = 0;
+        var y1 = baseline;
+        var line = draw.line(x0,y1,x0,y0)
+                        .stroke({width:1, color:"#edeae4"})
+      }
+      for (j = 1; j < xnum; j++) {
+        var x0 = 0;
+        var y0 = (j * (xspace+1)) - 0.5;
+        var x1 = w;
+        var line = draw.line(x0,y0,x1,y0)
+                        .stroke({width:1, color:"#edeae4"})
+      }
+
+      var rect = draw.rect(w,50)
+      .move(0,baseline)
+      .fill("white");
+
+      var line_points = new Array ();
+      line_points = [];
+
+      data.forEach(function(d,i) {
+        // d = data; i = iterator
+        // here we grab the data object and access the value with d.value
+        /* draw.rect(xspace,d.Output*yscale)
+        .move(i*(xspace+1),baseline - (d.Output*yscale))
+        .fill('#fe4');*/
+
+        var x = i*(xspace+1);
+        var y = baseline - d.Output*yscale;
+
+        line_points.push([x,y]);
+
+        // check to see if it's the start of a year, and if so add the year in the right spot
+        var myText;
+        switch (d.Month) {
+            case 1: 
+                var t = draw.text(''+d.Year)
+                .move(1.2*i*xspace,baseline+20)
+                .attr({fill:'black'})
+                .addClass("year_label");
+                myText = "JAN";
+            break;
+            case 2: myText = "FEB";
+            break;
+            case 3: myText = "MAR";
+            break;
+            case 4: myText = "APR";
+            break;
+            case 5: myText = "MAY";
+            break;
+            case 6: myText = "JUN";
+            break;
+            case 7: myText = "JUL";
+            break;
+            case 8: myText = "AUG";
+            break;
+            case 9: myText = "SEP";
+            break;
+            case 10: myText = "OCT";
+            break;
+            case 11: myText = "NOV";
+            break;
+            case 12: myText = "DEC";
+            break;
+        }
+        
+        var t = draw.text(myText)
+                .font({size:5, family:'Helvetica'})
+                .move(i*(xspace+1) - (xspace-1),baseline+4)
+                .attr({fill:'black'})
+                .rotate(90);
+      })
+
+      console.log(line_points);
+
+      var plotline = draw.polyline(line_points).addClass("line");
+      // HOMEWORK!
+      // try to improve this and tidy up - create some sensible variables?
+      // how about adding grid lines so we can read values?
+      // maybe add a legend?
+      // perhaps it should be horizontal... or a line graph?
+
+      </script>
+
+  </body>
+</html>

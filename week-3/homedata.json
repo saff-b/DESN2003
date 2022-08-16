@@ -1,0 +1,2891 @@
+[
+    {
+      "date": "15/02/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 5,
+      "Parks": 28,
+      "Transit": 4,
+      "Work": 6,
+      "Residential": -1
+    },
+    {
+      "date": "16/02/2020",
+      "Retail": 8,
+      "Grocery_and_Pharma": 19,
+      "Parks": 34,
+      "Transit": 16,
+      "Work": 2,
+      "Residential": -2
+    },
+    {
+      "date": "17/02/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 10,
+      "Parks": 9,
+      "Transit": 21,
+      "Work": 25,
+      "Residential": -4
+    },
+    {
+      "date": "18/02/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": -1,
+      "Parks": -11,
+      "Transit": 12,
+      "Work": 24,
+      "Residential": -2
+    },
+    {
+      "date": "19/02/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 9,
+      "Parks": 12,
+      "Transit": 17,
+      "Work": 22,
+      "Residential": -3
+    },
+    {
+      "date": "20/02/2020",
+      "Retail": 8,
+      "Grocery_and_Pharma": 7,
+      "Parks": 16,
+      "Transit": 20,
+      "Work": 21,
+      "Residential": -4
+    },
+    {
+      "date": "21/02/2020",
+      "Retail": 9,
+      "Grocery_and_Pharma": 6,
+      "Parks": 51,
+      "Transit": 24,
+      "Work": 25,
+      "Residential": -4
+    },
+    {
+      "date": "22/02/2020",
+      "Retail": 21,
+      "Grocery_and_Pharma": 6,
+      "Parks": 160,
+      "Transit": 44,
+      "Work": 10,
+      "Residential": -4
+    },
+    {
+      "date": "23/02/2020",
+      "Retail": 11,
+      "Grocery_and_Pharma": 19,
+      "Parks": 61,
+      "Transit": 25,
+      "Work": 3,
+      "Residential": -3
+    },
+    {
+      "date": "24/02/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 11,
+      "Parks": 5,
+      "Transit": 19,
+      "Work": 27,
+      "Residential": -3
+    },
+    {
+      "date": "25/02/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 3,
+      "Parks": 4,
+      "Transit": 13,
+      "Work": 25,
+      "Residential": -3
+    },
+    {
+      "date": "26/02/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 8,
+      "Parks": 18,
+      "Transit": 16,
+      "Work": 23,
+      "Residential": -3
+    },
+    {
+      "date": "27/02/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 7,
+      "Parks": 18,
+      "Transit": 22,
+      "Work": 21,
+      "Residential": -4
+    },
+    {
+      "date": "28/02/2020",
+      "Retail": 10,
+      "Grocery_and_Pharma": 9,
+      "Parks": 45,
+      "Transit": 24,
+      "Work": 26,
+      "Residential": -4
+    },
+    {
+      "date": "29/02/2020",
+      "Retail": 16,
+      "Grocery_and_Pharma": 12,
+      "Parks": 87,
+      "Transit": 26,
+      "Work": 10,
+      "Residential": -3
+    },
+    {
+      "date": "1/03/2020",
+      "Retail": 11,
+      "Grocery_and_Pharma": 20,
+      "Parks": 69,
+      "Transit": 21,
+      "Work": 3,
+      "Residential": -2
+    },
+    {
+      "date": "2/03/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 13,
+      "Parks": 13,
+      "Transit": 19,
+      "Work": 27,
+      "Residential": -3
+    },
+    {
+      "date": "3/03/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 5,
+      "Parks": 8,
+      "Transit": 9,
+      "Work": 21,
+      "Residential": -2
+    },
+    {
+      "date": "4/03/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 6,
+      "Parks": -36,
+      "Transit": 2,
+      "Work": 22,
+      "Residential": 0
+    },
+    {
+      "date": "5/03/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 6,
+      "Parks": -31,
+      "Transit": 11,
+      "Work": 20,
+      "Residential": -2
+    },
+    {
+      "date": "6/03/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 15,
+      "Parks": 20,
+      "Transit": 19,
+      "Work": 23,
+      "Residential": -4
+    },
+    {
+      "date": "7/03/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 8,
+      "Parks": 83,
+      "Transit": 12,
+      "Work": 4,
+      "Residential": -3
+    },
+    {
+      "date": "8/03/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 7,
+      "Parks": 48,
+      "Transit": 2,
+      "Work": 0,
+      "Residential": -3
+    },
+    {
+      "date": "9/03/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 13,
+      "Parks": 76,
+      "Transit": -25,
+      "Work": -72,
+      "Residential": 10
+    },
+    {
+      "date": "10/03/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 10,
+      "Parks": 1,
+      "Transit": 8,
+      "Work": 23,
+      "Residential": -3
+    },
+    {
+      "date": "11/03/2020",
+      "Retail": 0,
+      "Grocery_and_Pharma": 13,
+      "Parks": 18,
+      "Transit": 8,
+      "Work": 22,
+      "Residential": -2
+    },
+    {
+      "date": "12/03/2020",
+      "Retail": 4,
+      "Grocery_and_Pharma": 13,
+      "Parks": 17,
+      "Transit": 16,
+      "Work": 20,
+      "Residential": -3
+    },
+    {
+      "date": "13/03/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 20,
+      "Parks": 31,
+      "Transit": 12,
+      "Work": 25,
+      "Residential": -2
+    },
+    {
+      "date": "14/03/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 26,
+      "Parks": 13,
+      "Transit": -4,
+      "Work": 8,
+      "Residential": 2
+    },
+    {
+      "date": "15/03/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 29,
+      "Parks": 47,
+      "Transit": 3,
+      "Work": 3,
+      "Residential": 0
+    },
+    {
+      "date": "16/03/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 40,
+      "Parks": 1,
+      "Transit": 2,
+      "Work": 23,
+      "Residential": 0
+    },
+    {
+      "date": "17/03/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 33,
+      "Parks": -7,
+      "Transit": -12,
+      "Work": 17,
+      "Residential": 1
+    },
+    {
+      "date": "18/03/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 42,
+      "Parks": 2,
+      "Transit": -15,
+      "Work": 12,
+      "Residential": 3
+    },
+    {
+      "date": "19/03/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": 37,
+      "Parks": 3,
+      "Transit": -12,
+      "Work": 10,
+      "Residential": 3
+    },
+    {
+      "date": "20/03/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 32,
+      "Parks": 17,
+      "Transit": -14,
+      "Work": 11,
+      "Residential": 5
+    },
+    {
+      "date": "21/03/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 25,
+      "Parks": 52,
+      "Transit": -20,
+      "Work": 1,
+      "Residential": 4
+    },
+    {
+      "date": "22/03/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 25,
+      "Parks": 44,
+      "Transit": -26,
+      "Work": -8,
+      "Residential": 4
+    },
+    {
+      "date": "23/03/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": 33,
+      "Parks": -7,
+      "Transit": -25,
+      "Work": 4,
+      "Residential": 7
+    },
+    {
+      "date": "24/03/2020",
+      "Retail": -30,
+      "Grocery_and_Pharma": 9,
+      "Parks": -7,
+      "Transit": -44,
+      "Work": -18,
+      "Residential": 14
+    },
+    {
+      "date": "25/03/2020",
+      "Retail": -33,
+      "Grocery_and_Pharma": 12,
+      "Parks": -5,
+      "Transit": -47,
+      "Work": -23,
+      "Residential": 16
+    },
+    {
+      "date": "26/03/2020",
+      "Retail": -32,
+      "Grocery_and_Pharma": 9,
+      "Parks": 8,
+      "Transit": -48,
+      "Work": -28,
+      "Residential": 17
+    },
+    {
+      "date": "27/03/2020",
+      "Retail": -36,
+      "Grocery_and_Pharma": 15,
+      "Parks": 4,
+      "Transit": -50,
+      "Work": -27,
+      "Residential": 20
+    },
+    {
+      "date": "28/03/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": 4,
+      "Parks": 25,
+      "Transit": -47,
+      "Work": -24,
+      "Residential": 13
+    },
+    {
+      "date": "29/03/2020",
+      "Retail": -40,
+      "Grocery_and_Pharma": -3,
+      "Parks": 38,
+      "Transit": -52,
+      "Work": -31,
+      "Residential": 11
+    },
+    {
+      "date": "30/03/2020",
+      "Retail": -42,
+      "Grocery_and_Pharma": 1,
+      "Parks": -18,
+      "Transit": -54,
+      "Work": -34,
+      "Residential": 18
+    },
+    {
+      "date": "31/03/2020",
+      "Retail": -42,
+      "Grocery_and_Pharma": -5,
+      "Parks": -7,
+      "Transit": -58,
+      "Work": -42,
+      "Residential": 20
+    },
+    {
+      "date": "1/04/2020",
+      "Retail": -41,
+      "Grocery_and_Pharma": 1,
+      "Parks": 0,
+      "Transit": -57,
+      "Work": -45,
+      "Residential": 22
+    },
+    {
+      "date": "2/04/2020",
+      "Retail": -44,
+      "Grocery_and_Pharma": -7,
+      "Parks": -43,
+      "Transit": -64,
+      "Work": -47,
+      "Residential": 23
+    },
+    {
+      "date": "3/04/2020",
+      "Retail": -41,
+      "Grocery_and_Pharma": 5,
+      "Parks": -21,
+      "Transit": -60,
+      "Work": -44,
+      "Residential": 25
+    },
+    {
+      "date": "4/04/2020",
+      "Retail": -42,
+      "Grocery_and_Pharma": 1,
+      "Parks": -31,
+      "Transit": -60,
+      "Work": -32,
+      "Residential": 15
+    },
+    {
+      "date": "5/04/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -3,
+      "Parks": -7,
+      "Transit": -61,
+      "Work": -36,
+      "Residential": 13
+    },
+    {
+      "date": "6/04/2020",
+      "Retail": -40,
+      "Grocery_and_Pharma": 3,
+      "Parks": -6,
+      "Transit": -55,
+      "Work": -45,
+      "Residential": 20
+    },
+    {
+      "date": "7/04/2020",
+      "Retail": -40,
+      "Grocery_and_Pharma": -2,
+      "Parks": -11,
+      "Transit": -58,
+      "Work": -46,
+      "Residential": 21
+    },
+    {
+      "date": "8/04/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": 10,
+      "Parks": -18,
+      "Transit": -60,
+      "Work": -47,
+      "Residential": 22
+    },
+    {
+      "date": "9/04/2020",
+      "Retail": -27,
+      "Grocery_and_Pharma": 30,
+      "Parks": -11,
+      "Transit": -56,
+      "Work": -48,
+      "Residential": 20
+    },
+    {
+      "date": "10/04/2020",
+      "Retail": -74,
+      "Grocery_and_Pharma": -28,
+      "Parks": -26,
+      "Transit": -78,
+      "Work": -87,
+      "Residential": 38
+    },
+    {
+      "date": "11/04/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": 11,
+      "Parks": -22,
+      "Transit": -61,
+      "Work": -40,
+      "Residential": 15
+    },
+    {
+      "date": "12/04/2020",
+      "Retail": -52,
+      "Grocery_and_Pharma": -24,
+      "Parks": 41,
+      "Transit": -55,
+      "Work": -44,
+      "Residential": 13
+    },
+    {
+      "date": "13/04/2020",
+      "Retail": -45,
+      "Grocery_and_Pharma": -5,
+      "Parks": 32,
+      "Transit": -70,
+      "Work": -84,
+      "Residential": 29
+    },
+    {
+      "date": "14/04/2020",
+      "Retail": -40,
+      "Grocery_and_Pharma": -1,
+      "Parks": -11,
+      "Transit": -61,
+      "Work": -50,
+      "Residential": 22
+    },
+    {
+      "date": "15/04/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": 8,
+      "Parks": 16,
+      "Transit": -58,
+      "Work": -49,
+      "Residential": 23
+    },
+    {
+      "date": "16/04/2020",
+      "Retail": -37,
+      "Grocery_and_Pharma": 6,
+      "Parks": -3,
+      "Transit": -57,
+      "Work": -49,
+      "Residential": 22
+    },
+    {
+      "date": "17/04/2020",
+      "Retail": -37,
+      "Grocery_and_Pharma": 12,
+      "Parks": 15,
+      "Transit": -56,
+      "Work": -46,
+      "Residential": 24
+    },
+    {
+      "date": "18/04/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -6,
+      "Parks": 47,
+      "Transit": -45,
+      "Work": -26,
+      "Residential": 13
+    },
+    {
+      "date": "19/04/2020",
+      "Retail": -41,
+      "Grocery_and_Pharma": -12,
+      "Parks": 49,
+      "Transit": -52,
+      "Work": -36,
+      "Residential": 11
+    },
+    {
+      "date": "20/04/2020",
+      "Retail": -43,
+      "Grocery_and_Pharma": -11,
+      "Parks": -14,
+      "Transit": -54,
+      "Work": -46,
+      "Residential": 20
+    },
+    {
+      "date": "21/04/2020",
+      "Retail": -42,
+      "Grocery_and_Pharma": -15,
+      "Parks": -2,
+      "Transit": -56,
+      "Work": -46,
+      "Residential": 21
+    },
+    {
+      "date": "22/04/2020",
+      "Retail": -41,
+      "Grocery_and_Pharma": -10,
+      "Parks": 14,
+      "Transit": -55,
+      "Work": -46,
+      "Residential": 22
+    },
+    {
+      "date": "23/04/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -13,
+      "Parks": 6,
+      "Transit": -53,
+      "Work": -47,
+      "Residential": 21
+    },
+    {
+      "date": "24/04/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -3,
+      "Parks": 25,
+      "Transit": -51,
+      "Work": -44,
+      "Residential": 23
+    },
+    {
+      "date": "25/04/2020",
+      "Retail": -45,
+      "Grocery_and_Pharma": -11,
+      "Parks": 49,
+      "Transit": -49,
+      "Work": -42,
+      "Residential": 14
+    },
+    {
+      "date": "26/04/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -9,
+      "Parks": -26,
+      "Transit": -57,
+      "Work": -36,
+      "Residential": 12
+    },
+    {
+      "date": "27/04/2020",
+      "Retail": -40,
+      "Grocery_and_Pharma": -2,
+      "Parks": 64,
+      "Transit": -65,
+      "Work": -80,
+      "Residential": 26
+    },
+    {
+      "date": "28/04/2020",
+      "Retail": -41,
+      "Grocery_and_Pharma": -13,
+      "Parks": -7,
+      "Transit": -53,
+      "Work": -42,
+      "Residential": 19
+    },
+    {
+      "date": "29/04/2020",
+      "Retail": -47,
+      "Grocery_and_Pharma": -17,
+      "Parks": -56,
+      "Transit": -61,
+      "Work": -45,
+      "Residential": 17
+    },
+    {
+      "date": "30/04/2020",
+      "Retail": -43,
+      "Grocery_and_Pharma": -14,
+      "Parks": -52,
+      "Transit": -61,
+      "Work": -45,
+      "Residential": 22
+    },
+    {
+      "date": "1/05/2020",
+      "Retail": -43,
+      "Grocery_and_Pharma": -9,
+      "Parks": -47,
+      "Transit": -59,
+      "Work": -41,
+      "Residential": 24
+    },
+    {
+      "date": "2/05/2020",
+      "Retail": -32,
+      "Grocery_and_Pharma": 6,
+      "Parks": -19,
+      "Transit": -46,
+      "Work": -25,
+      "Residential": 12
+    },
+    {
+      "date": "3/05/2020",
+      "Retail": -33,
+      "Grocery_and_Pharma": -1,
+      "Parks": 59,
+      "Transit": -45,
+      "Work": -27,
+      "Residential": 9
+    },
+    {
+      "date": "4/05/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": -4,
+      "Parks": -6,
+      "Transit": -51,
+      "Work": -40,
+      "Residential": 18
+    },
+    {
+      "date": "5/05/2020",
+      "Retail": -39,
+      "Grocery_and_Pharma": -9,
+      "Parks": -3,
+      "Transit": -52,
+      "Work": -41,
+      "Residential": 19
+    },
+    {
+      "date": "6/05/2020",
+      "Retail": -37,
+      "Grocery_and_Pharma": -3,
+      "Parks": 4,
+      "Transit": -51,
+      "Work": -41,
+      "Residential": 20
+    },
+    {
+      "date": "7/05/2020",
+      "Retail": -37,
+      "Grocery_and_Pharma": -9,
+      "Parks": -2,
+      "Transit": -50,
+      "Work": -41,
+      "Residential": 19
+    },
+    {
+      "date": "8/05/2020",
+      "Retail": -34,
+      "Grocery_and_Pharma": 0,
+      "Parks": 22,
+      "Transit": -48,
+      "Work": -37,
+      "Residential": 20
+    },
+    {
+      "date": "9/05/2020",
+      "Retail": -25,
+      "Grocery_and_Pharma": 10,
+      "Parks": -10,
+      "Transit": -41,
+      "Work": -20,
+      "Residential": 10
+    },
+    {
+      "date": "10/05/2020",
+      "Retail": -30,
+      "Grocery_and_Pharma": -2,
+      "Parks": 49,
+      "Transit": -41,
+      "Work": -24,
+      "Residential": 6
+    },
+    {
+      "date": "11/05/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": -9,
+      "Parks": -10,
+      "Transit": -49,
+      "Work": -37,
+      "Residential": 17
+    },
+    {
+      "date": "12/05/2020",
+      "Retail": -38,
+      "Grocery_and_Pharma": -8,
+      "Parks": -12,
+      "Transit": -53,
+      "Work": -37,
+      "Residential": 19
+    },
+    {
+      "date": "13/05/2020",
+      "Retail": -37,
+      "Grocery_and_Pharma": -3,
+      "Parks": -4,
+      "Transit": -51,
+      "Work": -37,
+      "Residential": 19
+    },
+    {
+      "date": "14/05/2020",
+      "Retail": -34,
+      "Grocery_and_Pharma": -2,
+      "Parks": 11,
+      "Transit": -49,
+      "Work": -37,
+      "Residential": 17
+    },
+    {
+      "date": "15/05/2020",
+      "Retail": -34,
+      "Grocery_and_Pharma": -2,
+      "Parks": 26,
+      "Transit": -49,
+      "Work": -35,
+      "Residential": 19
+    },
+    {
+      "date": "16/05/2020",
+      "Retail": -24,
+      "Grocery_and_Pharma": 4,
+      "Parks": 50,
+      "Transit": -37,
+      "Work": -18,
+      "Residential": 8
+    },
+    {
+      "date": "17/05/2020",
+      "Retail": -26,
+      "Grocery_and_Pharma": 1,
+      "Parks": 84,
+      "Transit": -43,
+      "Work": -24,
+      "Residential": 7
+    },
+    {
+      "date": "18/05/2020",
+      "Retail": -32,
+      "Grocery_and_Pharma": -3,
+      "Parks": -3,
+      "Transit": -46,
+      "Work": -31,
+      "Residential": 15
+    },
+    {
+      "date": "19/05/2020",
+      "Retail": -33,
+      "Grocery_and_Pharma": -7,
+      "Parks": -7,
+      "Transit": -50,
+      "Work": -30,
+      "Residential": 16
+    },
+    {
+      "date": "20/05/2020",
+      "Retail": -33,
+      "Grocery_and_Pharma": -3,
+      "Parks": -28,
+      "Transit": -52,
+      "Work": -31,
+      "Residential": 18
+    },
+    {
+      "date": "21/05/2020",
+      "Retail": -30,
+      "Grocery_and_Pharma": -3,
+      "Parks": -1,
+      "Transit": -46,
+      "Work": -32,
+      "Residential": 17
+    },
+    {
+      "date": "22/05/2020",
+      "Retail": -29,
+      "Grocery_and_Pharma": -2,
+      "Parks": -2,
+      "Transit": -46,
+      "Work": -28,
+      "Residential": 18
+    },
+    {
+      "date": "23/05/2020",
+      "Retail": -22,
+      "Grocery_and_Pharma": 3,
+      "Parks": -22,
+      "Transit": -40,
+      "Work": -15,
+      "Residential": 9
+    },
+    {
+      "date": "24/05/2020",
+      "Retail": -24,
+      "Grocery_and_Pharma": -1,
+      "Parks": 55,
+      "Transit": -43,
+      "Work": -21,
+      "Residential": 7
+    },
+    {
+      "date": "25/05/2020",
+      "Retail": -30,
+      "Grocery_and_Pharma": -5,
+      "Parks": -9,
+      "Transit": -43,
+      "Work": -27,
+      "Residential": 14
+    },
+    {
+      "date": "26/05/2020",
+      "Retail": -30,
+      "Grocery_and_Pharma": -7,
+      "Parks": -8,
+      "Transit": -47,
+      "Work": -25,
+      "Residential": 15
+    },
+    {
+      "date": "27/05/2020",
+      "Retail": -29,
+      "Grocery_and_Pharma": -2,
+      "Parks": 1,
+      "Transit": -46,
+      "Work": -26,
+      "Residential": 16
+    },
+    {
+      "date": "28/05/2020",
+      "Retail": -25,
+      "Grocery_and_Pharma": 2,
+      "Parks": 12,
+      "Transit": -42,
+      "Work": -25,
+      "Residential": 14
+    },
+    {
+      "date": "29/05/2020",
+      "Retail": -24,
+      "Grocery_and_Pharma": 0,
+      "Parks": 22,
+      "Transit": -41,
+      "Work": -22,
+      "Residential": 15
+    },
+    {
+      "date": "30/05/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": 1,
+      "Parks": 57,
+      "Transit": -30,
+      "Work": -8,
+      "Residential": 6
+    },
+    {
+      "date": "31/05/2020",
+      "Retail": -21,
+      "Grocery_and_Pharma": -5,
+      "Parks": 51,
+      "Transit": -41,
+      "Work": -14,
+      "Residential": 5
+    },
+    {
+      "date": "1/06/2020",
+      "Retail": -26,
+      "Grocery_and_Pharma": 2,
+      "Parks": -9,
+      "Transit": -63,
+      "Work": -75,
+      "Residential": 21
+    },
+    {
+      "date": "2/06/2020",
+      "Retail": -26,
+      "Grocery_and_Pharma": -5,
+      "Parks": -13,
+      "Transit": -42,
+      "Work": -20,
+      "Residential": 13
+    },
+    {
+      "date": "3/06/2020",
+      "Retail": -24,
+      "Grocery_and_Pharma": -1,
+      "Parks": 5,
+      "Transit": -39,
+      "Work": -21,
+      "Residential": 14
+    },
+    {
+      "date": "4/06/2020",
+      "Retail": -22,
+      "Grocery_and_Pharma": -2,
+      "Parks": -1,
+      "Transit": -40,
+      "Work": -21,
+      "Residential": 13
+    },
+    {
+      "date": "5/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": -1,
+      "Parks": 18,
+      "Transit": -38,
+      "Work": -20,
+      "Residential": 12
+    },
+    {
+      "date": "6/06/2020",
+      "Retail": -16,
+      "Grocery_and_Pharma": -2,
+      "Parks": 52,
+      "Transit": -32,
+      "Work": -10,
+      "Residential": 4
+    },
+    {
+      "date": "7/06/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -10,
+      "Parks": 39,
+      "Transit": -41,
+      "Work": -17,
+      "Residential": 4
+    },
+    {
+      "date": "8/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": 3,
+      "Parks": 71,
+      "Transit": -60,
+      "Work": -77,
+      "Residential": 17
+    },
+    {
+      "date": "9/06/2020",
+      "Retail": -26,
+      "Grocery_and_Pharma": -4,
+      "Parks": -18,
+      "Transit": -41,
+      "Work": -20,
+      "Residential": 12
+    },
+    {
+      "date": "10/06/2020",
+      "Retail": -25,
+      "Grocery_and_Pharma": -3,
+      "Parks": -6,
+      "Transit": -40,
+      "Work": -19,
+      "Residential": 13
+    },
+    {
+      "date": "11/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": 1,
+      "Parks": -4,
+      "Transit": -38,
+      "Work": -19,
+      "Residential": 12
+    },
+    {
+      "date": "12/06/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": 1,
+      "Parks": 8,
+      "Transit": -35,
+      "Work": -15,
+      "Residential": 13
+    },
+    {
+      "date": "13/06/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 6,
+      "Parks": 40,
+      "Transit": -26,
+      "Work": -1,
+      "Residential": 5
+    },
+    {
+      "date": "14/06/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 5,
+      "Parks": 27,
+      "Transit": -41,
+      "Work": -9,
+      "Residential": 5
+    },
+    {
+      "date": "15/06/2020",
+      "Retail": -22,
+      "Grocery_and_Pharma": -2,
+      "Parks": -16,
+      "Transit": -37,
+      "Work": -17,
+      "Residential": 11
+    },
+    {
+      "date": "16/06/2020",
+      "Retail": -22,
+      "Grocery_and_Pharma": -3,
+      "Parks": -16,
+      "Transit": -40,
+      "Work": -17,
+      "Residential": 12
+    },
+    {
+      "date": "17/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": 0,
+      "Parks": -1,
+      "Transit": -38,
+      "Work": -18,
+      "Residential": 12
+    },
+    {
+      "date": "18/06/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": 0,
+      "Parks": 10,
+      "Transit": -34,
+      "Work": -19,
+      "Residential": 11
+    },
+    {
+      "date": "19/06/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -1,
+      "Parks": 17,
+      "Transit": -33,
+      "Work": -16,
+      "Residential": 11
+    },
+    {
+      "date": "20/06/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 1,
+      "Parks": 24,
+      "Transit": -26,
+      "Work": 1,
+      "Residential": 5
+    },
+    {
+      "date": "21/06/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": -1,
+      "Parks": -16,
+      "Transit": -42,
+      "Work": -10,
+      "Residential": 5
+    },
+    {
+      "date": "22/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": -2,
+      "Parks": -16,
+      "Transit": -35,
+      "Work": -18,
+      "Residential": 10
+    },
+    {
+      "date": "23/06/2020",
+      "Retail": -20,
+      "Grocery_and_Pharma": -6,
+      "Parks": -17,
+      "Transit": -40,
+      "Work": -19,
+      "Residential": 11
+    },
+    {
+      "date": "24/06/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": 2,
+      "Parks": 2,
+      "Transit": -39,
+      "Work": -18,
+      "Residential": 11
+    },
+    {
+      "date": "25/06/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": 2,
+      "Parks": 1,
+      "Transit": -33,
+      "Work": -19,
+      "Residential": 10
+    },
+    {
+      "date": "26/06/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 1,
+      "Parks": 10,
+      "Transit": -32,
+      "Work": -16,
+      "Residential": 10
+    },
+    {
+      "date": "27/06/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 4,
+      "Parks": 45,
+      "Transit": -21,
+      "Work": -1,
+      "Residential": 3
+    },
+    {
+      "date": "28/06/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 2,
+      "Parks": 65,
+      "Transit": -33,
+      "Work": -6,
+      "Residential": 3
+    },
+    {
+      "date": "29/06/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -1,
+      "Parks": -12,
+      "Transit": -35,
+      "Work": -17,
+      "Residential": 10
+    },
+    {
+      "date": "30/06/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -2,
+      "Parks": -8,
+      "Transit": -38,
+      "Work": -17,
+      "Residential": 10
+    },
+    {
+      "date": "1/07/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": 3,
+      "Parks": 0,
+      "Transit": -37,
+      "Work": -19,
+      "Residential": 11
+    },
+    {
+      "date": "2/07/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 4,
+      "Parks": -1,
+      "Transit": -34,
+      "Work": -19,
+      "Residential": 10
+    },
+    {
+      "date": "3/07/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 4,
+      "Parks": 6,
+      "Transit": -30,
+      "Work": -16,
+      "Residential": 10
+    },
+    {
+      "date": "4/07/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 7,
+      "Parks": 54,
+      "Transit": -22,
+      "Work": -1,
+      "Residential": 3
+    },
+    {
+      "date": "5/07/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 3,
+      "Parks": 69,
+      "Transit": -33,
+      "Work": -8,
+      "Residential": 2
+    },
+    {
+      "date": "6/07/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": 1,
+      "Parks": -9,
+      "Transit": -37,
+      "Work": -28,
+      "Residential": 11
+    },
+    {
+      "date": "7/07/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 0,
+      "Parks": 11,
+      "Transit": -37,
+      "Work": -27,
+      "Residential": 11
+    },
+    {
+      "date": "8/07/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": 3,
+      "Parks": 8,
+      "Transit": -37,
+      "Work": -27,
+      "Residential": 12
+    },
+    {
+      "date": "9/07/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 4,
+      "Parks": 21,
+      "Transit": -35,
+      "Work": -28,
+      "Residential": 10
+    },
+    {
+      "date": "10/07/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 1,
+      "Parks": 34,
+      "Transit": -36,
+      "Work": -27,
+      "Residential": 11
+    },
+    {
+      "date": "11/07/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": -2,
+      "Parks": -1,
+      "Transit": -32,
+      "Work": -3,
+      "Residential": 5
+    },
+    {
+      "date": "12/07/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": -1,
+      "Parks": 9,
+      "Transit": -40,
+      "Work": -9,
+      "Residential": 4
+    },
+    {
+      "date": "13/07/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -1,
+      "Parks": -19,
+      "Transit": -41,
+      "Work": -29,
+      "Residential": 12
+    },
+    {
+      "date": "14/07/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -3,
+      "Parks": -6,
+      "Transit": -42,
+      "Work": -28,
+      "Residential": 11
+    },
+    {
+      "date": "15/07/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": 3,
+      "Parks": 9,
+      "Transit": -39,
+      "Work": -27,
+      "Residential": 12
+    },
+    {
+      "date": "16/07/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 2,
+      "Parks": 17,
+      "Transit": -36,
+      "Work": -28,
+      "Residential": 10
+    },
+    {
+      "date": "17/07/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": 4,
+      "Parks": 44,
+      "Transit": -31,
+      "Work": -25,
+      "Residential": 11
+    },
+    {
+      "date": "18/07/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 4,
+      "Parks": 73,
+      "Transit": -22,
+      "Work": -1,
+      "Residential": 3
+    },
+    {
+      "date": "19/07/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 4,
+      "Parks": 50,
+      "Transit": -31,
+      "Work": -7,
+      "Residential": 3
+    },
+    {
+      "date": "20/07/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": 2,
+      "Parks": -5,
+      "Transit": -30,
+      "Work": -15,
+      "Residential": 9
+    },
+    {
+      "date": "21/07/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -3,
+      "Parks": -6,
+      "Transit": -36,
+      "Work": -16,
+      "Residential": 10
+    },
+    {
+      "date": "22/07/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": 2,
+      "Parks": 2,
+      "Transit": -34,
+      "Work": -16,
+      "Residential": 10
+    },
+    {
+      "date": "23/07/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 2,
+      "Parks": -4,
+      "Transit": -33,
+      "Work": -16,
+      "Residential": 9
+    },
+    {
+      "date": "24/07/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 3,
+      "Parks": 18,
+      "Transit": -31,
+      "Work": -12,
+      "Residential": 10
+    },
+    {
+      "date": "25/07/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 5,
+      "Parks": 64,
+      "Transit": -22,
+      "Work": -1,
+      "Residential": 4
+    },
+    {
+      "date": "26/07/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": 1,
+      "Parks": -41,
+      "Transit": -39,
+      "Work": -11,
+      "Residential": 6
+    },
+    {
+      "date": "27/07/2020",
+      "Retail": -22,
+      "Grocery_and_Pharma": -5,
+      "Parks": -48,
+      "Transit": -38,
+      "Work": -16,
+      "Residential": 11
+    },
+    {
+      "date": "28/07/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -1,
+      "Parks": -17,
+      "Transit": -36,
+      "Work": -13,
+      "Residential": 9
+    },
+    {
+      "date": "29/07/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": 3,
+      "Parks": 5,
+      "Transit": -33,
+      "Work": -14,
+      "Residential": 10
+    },
+    {
+      "date": "30/07/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 2,
+      "Parks": 9,
+      "Transit": -31,
+      "Work": -15,
+      "Residential": 9
+    },
+    {
+      "date": "31/07/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 3,
+      "Parks": 25,
+      "Transit": -33,
+      "Work": -14,
+      "Residential": 9
+    },
+    {
+      "date": "1/08/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 5,
+      "Parks": 69,
+      "Transit": -25,
+      "Work": -1,
+      "Residential": 3
+    },
+    {
+      "date": "2/08/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 5,
+      "Parks": 55,
+      "Transit": -35,
+      "Work": -8,
+      "Residential": 3
+    },
+    {
+      "date": "3/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": 1,
+      "Parks": -6,
+      "Transit": -34,
+      "Work": -14,
+      "Residential": 9
+    },
+    {
+      "date": "4/08/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -2,
+      "Parks": -18,
+      "Transit": -40,
+      "Work": -13,
+      "Residential": 9
+    },
+    {
+      "date": "5/08/2020",
+      "Retail": -16,
+      "Grocery_and_Pharma": -3,
+      "Parks": -7,
+      "Transit": -37,
+      "Work": -15,
+      "Residential": 10
+    },
+    {
+      "date": "6/08/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -2,
+      "Parks": 3,
+      "Transit": -32,
+      "Work": -15,
+      "Residential": 8
+    },
+    {
+      "date": "7/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -10,
+      "Parks": -39,
+      "Transit": -38,
+      "Work": -13,
+      "Residential": 12
+    },
+    {
+      "date": "8/08/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": -4,
+      "Parks": -28,
+      "Transit": -38,
+      "Work": -6,
+      "Residential": 6
+    },
+    {
+      "date": "9/08/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -5,
+      "Parks": -19,
+      "Transit": -45,
+      "Work": -11,
+      "Residential": 6
+    },
+    {
+      "date": "10/08/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -7,
+      "Parks": -6,
+      "Transit": -37,
+      "Work": -13,
+      "Residential": 8
+    },
+    {
+      "date": "11/08/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -10,
+      "Parks": -11,
+      "Transit": -39,
+      "Work": -14,
+      "Residential": 9
+    },
+    {
+      "date": "12/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -6,
+      "Parks": -19,
+      "Transit": -39,
+      "Work": -14,
+      "Residential": 10
+    },
+    {
+      "date": "13/08/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": -5,
+      "Parks": 9,
+      "Transit": -34,
+      "Work": -15,
+      "Residential": 8
+    },
+    {
+      "date": "14/08/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": -6,
+      "Parks": 4,
+      "Transit": -33,
+      "Work": -12,
+      "Residential": 10
+    },
+    {
+      "date": "15/08/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": -2,
+      "Parks": -1,
+      "Transit": -29,
+      "Work": -2,
+      "Residential": 5
+    },
+    {
+      "date": "16/08/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": -2,
+      "Parks": 46,
+      "Transit": -36,
+      "Work": -10,
+      "Residential": 4
+    },
+    {
+      "date": "17/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -7,
+      "Parks": null,
+      "Transit": -35,
+      "Work": -13,
+      "Residential": 8
+    },
+    {
+      "date": "18/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -11,
+      "Parks": null,
+      "Transit": -40,
+      "Work": -11,
+      "Residential": 9
+    },
+    {
+      "date": "19/08/2020",
+      "Retail": -19,
+      "Grocery_and_Pharma": -10,
+      "Parks": null,
+      "Transit": -42,
+      "Work": -14,
+      "Residential": 11
+    },
+    {
+      "date": "20/08/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": -3,
+      "Parks": null,
+      "Transit": -38,
+      "Work": -17,
+      "Residential": 9
+    },
+    {
+      "date": "21/08/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": -4,
+      "Parks": null,
+      "Transit": -37,
+      "Work": -11,
+      "Residential": 11
+    },
+    {
+      "date": "22/08/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 1,
+      "Parks": null,
+      "Transit": -31,
+      "Work": -2,
+      "Residential": 5
+    },
+    {
+      "date": "23/08/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 2,
+      "Parks": null,
+      "Transit": null,
+      "Work": null,
+      "Residential": 4
+    },
+    {
+      "date": "24/08/2020",
+      "Retail": -18,
+      "Grocery_and_Pharma": -2,
+      "Parks": null,
+      "Transit": -35,
+      "Work": -11,
+      "Residential": 8
+    },
+    {
+      "date": "25/08/2020",
+      "Retail": -17,
+      "Grocery_and_Pharma": -5,
+      "Parks": null,
+      "Transit": -38,
+      "Work": -11,
+      "Residential": 8
+    },
+    {
+      "date": "26/08/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": 0,
+      "Parks": null,
+      "Transit": -37,
+      "Work": -11,
+      "Residential": 9
+    },
+    {
+      "date": "27/08/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -2,
+      "Parks": null,
+      "Transit": -33,
+      "Work": -11,
+      "Residential": 8
+    },
+    {
+      "date": "28/08/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": -2,
+      "Parks": null,
+      "Transit": -30,
+      "Work": -8,
+      "Residential": 8
+    },
+    {
+      "date": "29/08/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": -1,
+      "Parks": null,
+      "Transit": -19,
+      "Work": 2,
+      "Residential": 2
+    },
+    {
+      "date": "30/08/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 1,
+      "Parks": null,
+      "Transit": null,
+      "Work": null,
+      "Residential": 2
+    },
+    {
+      "date": "31/08/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -2,
+      "Parks": null,
+      "Transit": -32,
+      "Work": -10,
+      "Residential": 7
+    },
+    {
+      "date": "1/09/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -4,
+      "Parks": null,
+      "Transit": -35,
+      "Work": -9,
+      "Residential": 8
+    },
+    {
+      "date": "2/09/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 0,
+      "Parks": null,
+      "Transit": -33,
+      "Work": -11,
+      "Residential": 8
+    },
+    {
+      "date": "3/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": -1,
+      "Parks": null,
+      "Transit": -32,
+      "Work": -10,
+      "Residential": 7
+    },
+    {
+      "date": "4/09/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 0,
+      "Parks": null,
+      "Transit": -27,
+      "Work": -7,
+      "Residential": 7
+    },
+    {
+      "date": "5/09/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 4,
+      "Parks": null,
+      "Transit": -19,
+      "Work": 1,
+      "Residential": 1
+    },
+    {
+      "date": "6/09/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 1,
+      "Parks": null,
+      "Transit": null,
+      "Work": null,
+      "Residential": 0
+    },
+    {
+      "date": "7/09/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": -1,
+      "Parks": null,
+      "Transit": -29,
+      "Work": -10,
+      "Residential": 6
+    },
+    {
+      "date": "8/09/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": -6,
+      "Parks": null,
+      "Transit": -33,
+      "Work": -9,
+      "Residential": 7
+    },
+    {
+      "date": "9/09/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -3,
+      "Parks": null,
+      "Transit": -35,
+      "Work": -11,
+      "Residential": 9
+    },
+    {
+      "date": "10/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": -2,
+      "Parks": null,
+      "Transit": -28,
+      "Work": -9,
+      "Residential": 6
+    },
+    {
+      "date": "11/09/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -1,
+      "Parks": 37,
+      "Transit": -24,
+      "Work": -7,
+      "Residential": 7
+    },
+    {
+      "date": "12/09/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": -1,
+      "Parks": 95,
+      "Transit": -17,
+      "Work": 3,
+      "Residential": 1
+    },
+    {
+      "date": "13/09/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 1,
+      "Parks": 35,
+      "Transit": -30,
+      "Work": -5,
+      "Residential": 2
+    },
+    {
+      "date": "14/09/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": 0,
+      "Parks": 14,
+      "Transit": -26,
+      "Work": -4,
+      "Residential": 6
+    },
+    {
+      "date": "15/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": -3,
+      "Parks": 9,
+      "Transit": -32,
+      "Work": -2,
+      "Residential": 6
+    },
+    {
+      "date": "16/09/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 0,
+      "Parks": 14,
+      "Transit": -29,
+      "Work": -7,
+      "Residential": 6
+    },
+    {
+      "date": "17/09/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 0,
+      "Parks": 21,
+      "Transit": -26,
+      "Work": -6,
+      "Residential": 5
+    },
+    {
+      "date": "18/09/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -2,
+      "Parks": 15,
+      "Transit": -25,
+      "Work": -5,
+      "Residential": 6
+    },
+    {
+      "date": "19/09/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": -2,
+      "Parks": 89,
+      "Transit": -18,
+      "Work": 4,
+      "Residential": 0
+    },
+    {
+      "date": "20/09/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -1,
+      "Parks": 2,
+      "Transit": -33,
+      "Work": -4,
+      "Residential": 3
+    },
+    {
+      "date": "21/09/2020",
+      "Retail": -15,
+      "Grocery_and_Pharma": -5,
+      "Parks": -10,
+      "Transit": -26,
+      "Work": -6,
+      "Residential": 7
+    },
+    {
+      "date": "22/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": -1,
+      "Parks": -6,
+      "Transit": -32,
+      "Work": -3,
+      "Residential": 6
+    },
+    {
+      "date": "23/09/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": 0,
+      "Parks": -22,
+      "Transit": -32,
+      "Work": -6,
+      "Residential": 7
+    },
+    {
+      "date": "24/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 0,
+      "Parks": -9,
+      "Transit": -28,
+      "Work": -4,
+      "Residential": 6
+    },
+    {
+      "date": "25/09/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -6,
+      "Parks": -40,
+      "Transit": -33,
+      "Work": -5,
+      "Residential": 9
+    },
+    {
+      "date": "26/09/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 1,
+      "Parks": 22,
+      "Transit": -26,
+      "Work": 5,
+      "Residential": 2
+    },
+    {
+      "date": "27/09/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 0,
+      "Parks": 44,
+      "Transit": -29,
+      "Work": -1,
+      "Residential": 1
+    },
+    {
+      "date": "28/09/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": 2,
+      "Parks": 14,
+      "Transit": -32,
+      "Work": -18,
+      "Residential": 7
+    },
+    {
+      "date": "29/09/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -1,
+      "Parks": 10,
+      "Transit": -36,
+      "Work": -15,
+      "Residential": 8
+    },
+    {
+      "date": "30/09/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 0,
+      "Parks": -28,
+      "Transit": -36,
+      "Work": -20,
+      "Residential": 9
+    },
+    {
+      "date": "1/10/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 6,
+      "Parks": 14,
+      "Transit": -29,
+      "Work": -17,
+      "Residential": 6
+    },
+    {
+      "date": "2/10/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 3,
+      "Parks": 38,
+      "Transit": -29,
+      "Work": -20,
+      "Residential": 7
+    },
+    {
+      "date": "3/10/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": -5,
+      "Parks": 105,
+      "Transit": -23,
+      "Work": 1,
+      "Residential": -1
+    },
+    {
+      "date": "4/10/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": -9,
+      "Parks": 120,
+      "Transit": -30,
+      "Work": -4,
+      "Residential": -1
+    },
+    {
+      "date": "5/10/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": 5,
+      "Parks": 71,
+      "Transit": -55,
+      "Work": -75,
+      "Residential": 14
+    },
+    {
+      "date": "6/10/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 1,
+      "Parks": -37,
+      "Transit": -42,
+      "Work": -21,
+      "Residential": 9
+    },
+    {
+      "date": "7/10/2020",
+      "Retail": -14,
+      "Grocery_and_Pharma": -2,
+      "Parks": -38,
+      "Transit": -39,
+      "Work": -21,
+      "Residential": 10
+    },
+    {
+      "date": "8/10/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": -1,
+      "Parks": -16,
+      "Transit": -36,
+      "Work": -20,
+      "Residential": 9
+    },
+    {
+      "date": "9/10/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -1,
+      "Parks": 10,
+      "Transit": -31,
+      "Work": -16,
+      "Residential": 8
+    },
+    {
+      "date": "10/10/2020",
+      "Retail": 0,
+      "Grocery_and_Pharma": -2,
+      "Parks": 77,
+      "Transit": -23,
+      "Work": 8,
+      "Residential": 1
+    },
+    {
+      "date": "11/10/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": 3,
+      "Parks": 69,
+      "Transit": -28,
+      "Work": 1,
+      "Residential": 1
+    },
+    {
+      "date": "12/10/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 2,
+      "Parks": -1,
+      "Transit": -25,
+      "Work": -2,
+      "Residential": 5
+    },
+    {
+      "date": "13/10/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 0,
+      "Parks": -1,
+      "Transit": -29,
+      "Work": 0,
+      "Residential": 5
+    },
+    {
+      "date": "14/10/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 3,
+      "Parks": -2,
+      "Transit": -26,
+      "Work": -3,
+      "Residential": 6
+    },
+    {
+      "date": "15/10/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 3,
+      "Parks": 9,
+      "Transit": -23,
+      "Work": -2,
+      "Residential": 4
+    },
+    {
+      "date": "16/10/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 2,
+      "Parks": -5,
+      "Transit": -21,
+      "Work": -1,
+      "Residential": 6
+    },
+    {
+      "date": "17/10/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 4,
+      "Parks": 16,
+      "Transit": -12,
+      "Work": 8,
+      "Residential": 2
+    },
+    {
+      "date": "18/10/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 4,
+      "Parks": 50,
+      "Transit": -25,
+      "Work": 2,
+      "Residential": 2
+    },
+    {
+      "date": "19/10/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 4,
+      "Parks": -1,
+      "Transit": -21,
+      "Work": 0,
+      "Residential": 5
+    },
+    {
+      "date": "20/10/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 0,
+      "Parks": -6,
+      "Transit": -27,
+      "Work": 2,
+      "Residential": 5
+    },
+    {
+      "date": "21/10/2020",
+      "Retail": -9,
+      "Grocery_and_Pharma": 2,
+      "Parks": 2,
+      "Transit": -24,
+      "Work": -2,
+      "Residential": 6
+    },
+    {
+      "date": "22/10/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 2,
+      "Parks": 8,
+      "Transit": -21,
+      "Work": -1,
+      "Residential": 4
+    },
+    {
+      "date": "23/10/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 1,
+      "Parks": 16,
+      "Transit": -19,
+      "Work": 0,
+      "Residential": 5
+    },
+    {
+      "date": "24/10/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 0,
+      "Parks": -24,
+      "Transit": -21,
+      "Work": 4,
+      "Residential": 4
+    },
+    {
+      "date": "25/10/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": 2,
+      "Parks": -23,
+      "Transit": -28,
+      "Work": -2,
+      "Residential": 3
+    },
+    {
+      "date": "26/10/2020",
+      "Retail": -19,
+      "Grocery_and_Pharma": -4,
+      "Parks": -47,
+      "Transit": -29,
+      "Work": -3,
+      "Residential": 7
+    },
+    {
+      "date": "27/10/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": -1,
+      "Parks": -28,
+      "Transit": -25,
+      "Work": 1,
+      "Residential": 6
+    },
+    {
+      "date": "28/10/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 3,
+      "Parks": -14,
+      "Transit": -24,
+      "Work": -2,
+      "Residential": 6
+    },
+    {
+      "date": "29/10/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 4,
+      "Parks": -13,
+      "Transit": -22,
+      "Work": 0,
+      "Residential": 5
+    },
+    {
+      "date": "30/10/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 3,
+      "Parks": -4,
+      "Transit": -19,
+      "Work": 1,
+      "Residential": 5
+    },
+    {
+      "date": "31/10/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": -1,
+      "Parks": -31,
+      "Transit": -21,
+      "Work": 6,
+      "Residential": 3
+    },
+    {
+      "date": "1/11/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": 3,
+      "Parks": 35,
+      "Transit": -23,
+      "Work": 0,
+      "Residential": 1
+    },
+    {
+      "date": "2/11/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 4,
+      "Parks": -5,
+      "Transit": -23,
+      "Work": 0,
+      "Residential": 4
+    },
+    {
+      "date": "3/11/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": -1,
+      "Parks": -7,
+      "Transit": -26,
+      "Work": 2,
+      "Residential": 4
+    },
+    {
+      "date": "4/11/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 2,
+      "Parks": -8,
+      "Transit": -25,
+      "Work": -2,
+      "Residential": 5
+    },
+    {
+      "date": "5/11/2020",
+      "Retail": -12,
+      "Grocery_and_Pharma": -3,
+      "Parks": -47,
+      "Transit": -30,
+      "Work": -2,
+      "Residential": 6
+    },
+    {
+      "date": "6/11/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 2,
+      "Parks": 15,
+      "Transit": -23,
+      "Work": 2,
+      "Residential": 4
+    },
+    {
+      "date": "7/11/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 0,
+      "Parks": 60,
+      "Transit": -17,
+      "Work": 6,
+      "Residential": 1
+    },
+    {
+      "date": "8/11/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 4,
+      "Parks": 59,
+      "Transit": -23,
+      "Work": 0,
+      "Residential": 1
+    },
+    {
+      "date": "9/11/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 4,
+      "Parks": -3,
+      "Transit": -21,
+      "Work": 1,
+      "Residential": 4
+    },
+    {
+      "date": "10/11/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 1,
+      "Parks": -5,
+      "Transit": -28,
+      "Work": 2,
+      "Residential": 4
+    },
+    {
+      "date": "11/11/2020",
+      "Retail": -8,
+      "Grocery_and_Pharma": 3,
+      "Parks": -3,
+      "Transit": -25,
+      "Work": -2,
+      "Residential": 4
+    },
+    {
+      "date": "12/11/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 4,
+      "Parks": -26,
+      "Transit": -24,
+      "Work": 0,
+      "Residential": 4
+    },
+    {
+      "date": "13/11/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 4,
+      "Parks": 3,
+      "Transit": -21,
+      "Work": 0,
+      "Residential": 4
+    },
+    {
+      "date": "14/11/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 1,
+      "Parks": 59,
+      "Transit": -14,
+      "Work": 8,
+      "Residential": -1
+    },
+    {
+      "date": "15/11/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": 4,
+      "Parks": 49,
+      "Transit": -22,
+      "Work": 0,
+      "Residential": 0
+    },
+    {
+      "date": "16/11/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 3,
+      "Parks": -21,
+      "Transit": -22,
+      "Work": -1,
+      "Residential": 4
+    },
+    {
+      "date": "17/11/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 2,
+      "Parks": -10,
+      "Transit": -26,
+      "Work": 3,
+      "Residential": 3
+    },
+    {
+      "date": "18/11/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 6,
+      "Parks": -7,
+      "Transit": -23,
+      "Work": -1,
+      "Residential": 4
+    },
+    {
+      "date": "19/11/2020",
+      "Retail": -5,
+      "Grocery_and_Pharma": 5,
+      "Parks": -2,
+      "Transit": -24,
+      "Work": 0,
+      "Residential": 3
+    },
+    {
+      "date": "20/11/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 3,
+      "Parks": 11,
+      "Transit": -21,
+      "Work": 0,
+      "Residential": 4
+    },
+    {
+      "date": "21/11/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 1,
+      "Parks": 54,
+      "Transit": -13,
+      "Work": 8,
+      "Residential": -1
+    },
+    {
+      "date": "22/11/2020",
+      "Retail": -2,
+      "Grocery_and_Pharma": 5,
+      "Parks": 16,
+      "Transit": -27,
+      "Work": -3,
+      "Residential": 0
+    },
+    {
+      "date": "23/11/2020",
+      "Retail": -11,
+      "Grocery_and_Pharma": 3,
+      "Parks": -33,
+      "Transit": -24,
+      "Work": -2,
+      "Residential": 5
+    },
+    {
+      "date": "24/11/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 2,
+      "Parks": -14,
+      "Transit": -27,
+      "Work": 2,
+      "Residential": 3
+    },
+    {
+      "date": "25/11/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 6,
+      "Parks": -4,
+      "Transit": -23,
+      "Work": 0,
+      "Residential": 3
+    },
+    {
+      "date": "26/11/2020",
+      "Retail": 0,
+      "Grocery_and_Pharma": 6,
+      "Parks": -1,
+      "Transit": -19,
+      "Work": 0,
+      "Residential": 2
+    },
+    {
+      "date": "27/11/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 5,
+      "Parks": 17,
+      "Transit": -13,
+      "Work": 1,
+      "Residential": 1
+    },
+    {
+      "date": "28/11/2020",
+      "Retail": 4,
+      "Grocery_and_Pharma": 1,
+      "Parks": 28,
+      "Transit": -13,
+      "Work": 4,
+      "Residential": -1
+    },
+    {
+      "date": "29/11/2020",
+      "Retail": 4,
+      "Grocery_and_Pharma": 8,
+      "Parks": 23,
+      "Transit": -16,
+      "Work": -1,
+      "Residential": -1
+    },
+    {
+      "date": "30/11/2020",
+      "Retail": -4,
+      "Grocery_and_Pharma": 6,
+      "Parks": -6,
+      "Transit": -18,
+      "Work": 0,
+      "Residential": 2
+    },
+    {
+      "date": "1/12/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 2,
+      "Parks": -15,
+      "Transit": -25,
+      "Work": 3,
+      "Residential": 3
+    },
+    {
+      "date": "2/12/2020",
+      "Retail": -1,
+      "Grocery_and_Pharma": 9,
+      "Parks": -2,
+      "Transit": -25,
+      "Work": 0,
+      "Residential": 3
+    },
+    {
+      "date": "3/12/2020",
+      "Retail": 1,
+      "Grocery_and_Pharma": 7,
+      "Parks": 6,
+      "Transit": -21,
+      "Work": 1,
+      "Residential": 2
+    },
+    {
+      "date": "4/12/2020",
+      "Retail": 4,
+      "Grocery_and_Pharma": 6,
+      "Parks": 33,
+      "Transit": -18,
+      "Work": 2,
+      "Residential": 1
+    },
+    {
+      "date": "5/12/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 3,
+      "Parks": 22,
+      "Transit": -18,
+      "Work": 6,
+      "Residential": -1
+    },
+    {
+      "date": "6/12/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 10,
+      "Parks": 17,
+      "Transit": -22,
+      "Work": 0,
+      "Residential": -1
+    },
+    {
+      "date": "7/12/2020",
+      "Retail": -3,
+      "Grocery_and_Pharma": 9,
+      "Parks": -15,
+      "Transit": -19,
+      "Work": -1,
+      "Residential": 2
+    },
+    {
+      "date": "8/12/2020",
+      "Retail": 0,
+      "Grocery_and_Pharma": 7,
+      "Parks": -9,
+      "Transit": -25,
+      "Work": 4,
+      "Residential": 2
+    },
+    {
+      "date": "9/12/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 9,
+      "Parks": 7,
+      "Transit": -21,
+      "Work": 0,
+      "Residential": 3
+    },
+    {
+      "date": "10/12/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 6,
+      "Parks": -13,
+      "Transit": -20,
+      "Work": -1,
+      "Residential": 2
+    },
+    {
+      "date": "11/12/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 6,
+      "Parks": 30,
+      "Transit": -15,
+      "Work": 1,
+      "Residential": 1
+    },
+    {
+      "date": "12/12/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 5,
+      "Parks": 45,
+      "Transit": -13,
+      "Work": 9,
+      "Residential": -2
+    },
+    {
+      "date": "13/12/2020",
+      "Retail": 6,
+      "Grocery_and_Pharma": 7,
+      "Parks": 38,
+      "Transit": -18,
+      "Work": 1,
+      "Residential": -1
+    },
+    {
+      "date": "14/12/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 11,
+      "Parks": -6,
+      "Transit": -17,
+      "Work": -2,
+      "Residential": 2
+    },
+    {
+      "date": "15/12/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 8,
+      "Parks": -15,
+      "Transit": -22,
+      "Work": 0,
+      "Residential": 3
+    },
+    {
+      "date": "16/12/2020",
+      "Retail": 5,
+      "Grocery_and_Pharma": 10,
+      "Parks": -28,
+      "Transit": -20,
+      "Work": -4,
+      "Residential": 4
+    },
+    {
+      "date": "17/12/2020",
+      "Retail": 9,
+      "Grocery_and_Pharma": 12,
+      "Parks": -8,
+      "Transit": -17,
+      "Work": -4,
+      "Residential": 2
+    },
+    {
+      "date": "18/12/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 8,
+      "Parks": 18,
+      "Transit": -15,
+      "Work": -3,
+      "Residential": 2
+    },
+    {
+      "date": "19/12/2020",
+      "Retail": 4,
+      "Grocery_and_Pharma": 4,
+      "Parks": 34,
+      "Transit": -10,
+      "Work": 6,
+      "Residential": -2
+    },
+    {
+      "date": "20/12/2020",
+      "Retail": 2,
+      "Grocery_and_Pharma": 5,
+      "Parks": 38,
+      "Transit": -13,
+      "Work": -1,
+      "Residential": -1
+    },
+    {
+      "date": "21/12/2020",
+      "Retail": 7,
+      "Grocery_and_Pharma": 20,
+      "Parks": -17,
+      "Transit": -26,
+      "Work": -26,
+      "Residential": 7
+    },
+    {
+      "date": "22/12/2020",
+      "Retail": 11,
+      "Grocery_and_Pharma": 21,
+      "Parks": -13,
+      "Transit": -33,
+      "Work": -27,
+      "Residential": 7
+    },
+    {
+      "date": "23/12/2020",
+      "Retail": 14,
+      "Grocery_and_Pharma": 40,
+      "Parks": 10,
+      "Transit": -31,
+      "Work": -35,
+      "Residential": 7
+    },
+    {
+      "date": "24/12/2020",
+      "Retail": 3,
+      "Grocery_and_Pharma": 53,
+      "Parks": 9,
+      "Transit": -38,
+      "Work": -51,
+      "Residential": 9
+    },
+    {
+      "date": "25/12/2020",
+      "Retail": -84,
+      "Grocery_and_Pharma": -82,
+      "Parks": 36,
+      "Transit": -70,
+      "Work": -87,
+      "Residential": 19
+    },
+    {
+      "date": "26/12/2020",
+      "Retail": -23,
+      "Grocery_and_Pharma": -24,
+      "Parks": 7,
+      "Transit": -19,
+      "Work": -27,
+      "Residential": 3
+    },
+    {
+      "date": "27/12/2020",
+      "Retail": -16,
+      "Grocery_and_Pharma": -20,
+      "Parks": 28,
+      "Transit": -32,
+      "Work": -13,
+      "Residential": 0
+    },
+    {
+      "date": "28/12/2020",
+      "Retail": -13,
+      "Grocery_and_Pharma": -2,
+      "Parks": 0,
+      "Transit": -54,
+      "Work": -77,
+      "Residential": 17
+    },
+    {
+      "date": "29/12/2020",
+      "Retail": -6,
+      "Grocery_and_Pharma": 2,
+      "Parks": 3,
+      "Transit": -54,
+      "Work": -68,
+      "Residential": 15
+    },
+    {
+      "date": "30/12/2020",
+      "Retail": -10,
+      "Grocery_and_Pharma": 6,
+      "Parks": 20,
+      "Transit": -52,
+      "Work": -67,
+      "Residential": 15
+    },
+    {
+      "date": "31/12/2020",
+      "Retail": -7,
+      "Grocery_and_Pharma": 19,
+      "Parks": 20,
+      "Transit": -47,
+      "Work": -67,
+      "Residential": 10
+    }
+   ]

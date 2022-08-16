@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+    <style media="screen">
+    </style>
+
+</head>
+<h1>getting started</h1>
+<body>
+    <script>
+    // javascript
+        var draw = SVG()
+        .addTo('body')
+        .size(300,300);
+
+        var rect = draw.rect(90,40)
+        .fill('#00cc00')
+        .stroke('#a378ad')
+        .move(100,20)
+
+        for (i = 0; i<10;i++) {
+            rect = draw.rect(90,40)
+            .fill('#00cc00')
+            .stroke('#a378ad')
+            .move(100,20*i)
+        }
+
+        for (i = 0; i<10;i++) {
+        let c = draw.ellipse(84)
+        .fill({color:'#a378ad',opacity:0.1*i})
+        c.move(20*i,15*i)
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+
+    <style media="screen">
+        .bar{
+            fill:orange;
+            stroke:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>data</h1>
+
+    <script type="text/javascript">
+        var draw = SVG().addTo("body").size(800, 800);
+        // this data is NSW / ACT solar power output in MWh
+        // since April 2015
+        // from http://pv-map.apvi.org.au/data/states/output.csv
+        //
+       
+        var data = [26908,26233,22776,27480,33641,43668,59592,112138,127801,114781,123790,110596,87784,80255,57583,71622,91463,104705,140382,151346,138454,138378,121971,100637,109354,90740,71616,98826,126117,151691,155113,169479,170763,182444,156885,155202,137954,122290,91638,131253,154691,178965,182863,213790,286673,281183,253926,228867,214843,188533,148711,191791,241198,279723,341440,367906,372239,337058,293496,297411,262901,238584,208625,227768,320799,370755,412445,490221,444299,497458,413495,394137,421061,328524,261763,315510,420168,509686,592854,472568,621523,590399,497991,442790,405840,345857]
+        
+        var hscale = 0.001;
+
+        var xaxis = [100000,200000,300000,400000,500000]
+
+        /* for (var i = 0; i < data.length; i++) {
+          var d = data[i]; // each data point is d
+         top = d * hscale;
+          step = 3;
+          for (var j = top; j > 0; j -= step) {
+            draw.circle(4)
+            .move(top - j*step,i*5)
+            .fill("red");
+          } 
+          
+        }*/
+        var barheight = 7
+
+        data.forEach(function(d,i){
+            //console.log(d)
+            draw.rect(d*hscale,4)
+            .move(0,i*5)
+            .addClass("bar")
+        })
+
+        xaxis.forEach(x => {
+            draw.text(x).move(x*hscale,0)
+        })
+  
+        </script>
+</body>
+</html>
