@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+    <script src="fruitsnvegs.js"></script>
+
+    <style media="screen">
+        /* put classes here */
+        .outlinedBox{
+            fill: none;
+            stroke: green;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="play()">play</button>
+    <button onclick="cleer()">clear</button>
+
+    <script>
+        var w=600, h=600;
+        var draw = SVG().addTo("body").size(w,h);
+
+        var scale = 2;
+        var baseYear;
+        
+        // initialise values
+        data.forEach(d => {
+            if (baseYear) {
+                if (baseYear > d.Year) {
+                    baseYear = d.Year;
+                }
+            } else {
+                baseYear = d.Year;
+            }
+        })
+
+        const topPadding = 5;
+        drawBackground();
+        function drawBackground() {
+            const bgSize = 105;
+        const backgroundRect = draw.rect(200*scale,bgSize)
+            .addClass('outlinedBox')
+            .move((w/2 - 100*scale), topPadding*20);
+            
+        for (var i = 10; i <= 200; i+=10) {
+                const x = i * scale + (w/2 - 100*scale);
+                const y0 = topPadding * 20;
+                const y1 = bgSize + topPadding * 20;
+                const percentLine = draw.line(x, y0, x, y1)
+                .addClass('outlinedBox');
+            }
+        
+            var mainLabel = draw.text("EAT YOUR GREENS").font({
+            family: 'Helvetica',
+            size: 50,
+            anchor: 'middle',
+            })
+            .move(60,20);
+            var mainLabel = draw.text("fruits vs vegetables eaten by 11 - 12 yos").font({
+            family: 'Helvetica',
+            size: 20,
+            anchor: 'middle'
+            })
+            .move(70,70);
+        }
+        function play() { 
+        cleer();       
+            drawBackground();
+        data.forEach(d => {
+            var ySpace = ((d.Year - baseYear) / 3) + topPadding - 0.8;
+            // console.log(ySpace);
+            // if its a fruit draw on LHS, otherwise (vegetable) RHS
+            var veg = d.Type == "Vegetable" ? true : false;
+            var row = d.Percent*scale;
+            console.log(row);
+            var h = 20;
+            var rect = draw.rect(1,h).move(w / 2, ySpace * (h + 5));
+            if (veg) {
+                rect.fill("green");                
+                rect.animate(200,200,'now').size(row, h)
+            } else {
+                rect.fill("pink");
+                rect.animate(200,200,'now').move((w / 2 - row), ySpace * (h + 5))
+                rect.animate(200,200,'now').size(row, h);
+            }
+            var year = draw.text(d.Year)
+                .move(w/2 - 40, ySpace*(h+5))
+                .font({
+                    fill: 'none',
+                    family: 'helvetica',
+                    weight: 900
+                })
+           year.animate(0,1000,'now').fill('green');
+        })
+           /* var rect = draw.rect({width: 100, height: 100})
+            console.log("he");
+            console.log(draw.children());
+            rect.animate(1000,1000,'now').move(100,100);
+            rect.animate(2000, 1000, 'last').attr({ fill: '#f03' });*/
+        }
+
+        //doesnt work if u spell it correctly word must be reserved shrug
+        function cleer() {
+            //console.log("he");
+            //console.log(draw.children());
+            draw.clear();
+        }
+
+    </script>
+    
+</body>
+</html>
