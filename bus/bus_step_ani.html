@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+    <script src="daily_boarding.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.4/chroma.min.js"></script>
+
+    <style>
+
+        .background{
+            fill: #0b03b0;
+        }
+        .background_bus{
+            fill: rgb(255, 255, 255);
+        }
+        .lines{
+            fill: rgb(255, 255, 255);
+        }
+        .top_text{
+          text-anchor: middle;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .bottom_text{
+          text-anchor: middle;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .title{
+          text-anchor: middle;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+      </style>
+</head>
+<body>
+    <script>
+        dw = 1080;
+        dh = 1920;
+        let draw = SVG().addTo("body").size(dw,dh);
+        /* DATA SET UP */
+        const scale = 0.0005;
+        const baseline = 1500;
+        const padding = 100;
+        const END = 150;
+        const point_spacing = ((dw - padding) / 12); // the space between points
+        const line_data = process_data_into_lines(scale, point_spacing);
+        console.log(line_data);
+        /* BACKGROUND */
+        let background = draw.rect(dw,dh,0,0).addClass("background");
+
+        /* ANIMATION TIMELINE */
+        const time_step = 200; // 0.2 seconds
+        let step = 0; // ticker step
+        // ticker from Mitchell's example code
+        let quick_line = 160;
+        let slow_line = 300;            
+            
+        let bus_group = draw.group();
+        let animation_group = draw.group();
+        let caption = draw.text("In the beginning...")
+            .size(1000,1000)
+            .move(200,380)
+            .addClass("title"); // store the caption as a variable
+
+        let line_color = chroma("#967d64");
+
+        let ticker = window.setInterval(function(){
+            switch (step) {
+                case 0:
+                case 1:
+                    draw_intro();
+                break;
+                case 15:
+                    bus_group.animate(1000).scale(2,2);
+                    break;
+                    case 18:     
+                    let cover = bus_group.rect(1080,300)
+                        .move(0,1300).fill("white").opacity(0)
+                        .animate(500).opacity(1);
+                    break;
+                case 20:
+                    animate_plot(animation_group, line_data[1], quick_line, 20, 'skyblue', line_color.hex());
+                    line_color = chroma(line_color).saturate(1).brighten(1);
+                break;
+                case 30:
+                    let label_201
+                    //update_lower_caption("from 2015 - 2018, bus ");
+                    animate_plot(animation_group, line_data[2], quick_line, 20, 'skyblue', 
+                        line_color.hex());
+                    line_color = chroma(line_color).saturate(1).brighten(1);
+                break;
+                case 40:
+                    animate_plot(animation_group, line_data[3], quick_line, 20, 'skyblue', 
+                        line_color.hex());
+                    line_color = chroma(line_color).saturate(1).brighten(1);
+                break;
+                case 50:
+                    animate_plot(animation_group, line_data[4], quick_line, 20, 'skyblue', 
+                        line_color.hex());
+                    line_color = chroma("ff6f00");
+                break;
+                case 80:
+                    clear_lines();
+                    animate_plot(animation_group, line_data[5], slow_line, 20, 'skyblue', 
+                        line_color.hex());                
+                    break;
+                case 110:
+                    animate_plot(animation_group, line_data[6], slow_line, 20, 'skyblue', 
+                        line_color.hex());  
+
+                break;
+                case 140:
+                    animate_plot(animation_group, line_data[7], slow_line, 20, 'skyblue', 
+                        line_color.hex());  
+
+                break;
+
+/*                case 30:
+                    //update_lower_caption("from 2014 - 2018, bus ");
+                    animate_plot(animation_group, line_data[3], quick_line, 20, 'red', 'black');
+                break;
+                case 45:
+                    //update_lower_caption("from 2014 - 2018, bus ");
+                    animate_plot(animation_group, line_data[4], quick_line, 20, 'red', 'black');
+                break;*/
+                case END:
+                    step = 0;
+                    reset_animation();
+                break;
+                default:
+
+                break;
+            }
+            //console.log(step);
+            step++;
+        },time_step)
+
+        
+        /* FUNCTIONS */
+        // function which draws an animated line using lines
+        function animate_plot(group, plot, speed, thickness, dotcol, linecol) {
+            //console.log(plot);
+            for (var i = 1; i < plot.length; i++) {
+                let line = group.line([plot[i-1],plot[i-1]])
+                 .stroke({ color: linecol, opacity: '0', width: thickness, linecap: 'round' })
+                 .addClass("lines");
+                let pointline = group.line([plot[i - 1], plot[i - 1]])
+                    .stroke({ color: dotcol, opacity: '0', width: thickness, linecap: 'round' })
+                    .addClass("lines");
+                line.animate(1, (i*speed)).stroke({opacity:1})
+                    .animate(speed, 0).plot([plot[i-1],plot[i]]);
+                
+                pointline.animate(1, (i*speed)).stroke({opacity:1})
+                    .animate(speed,0).plot([plot[i],plot[i]])
+                    .animate(0,0).stroke({opacity:0});
+            }
+        }
+
+        //function to draw the intro part
+        function draw_intro() {
+            let bus_body = bus_group.rect(900,1000).move(90,600).radius(80).addClass("background_bus");
+            let bus_wheelR = bus_group.rect(180,300).move(700,1500).radius(40).addClass("background_bus");
+            let bus_wheelL = bus_group.rect(180,300).move(200,1500).radius(40).addClass("background_bus");
+            let bus_lightR = bus_group.circle(180).move(720,1380).fill("#0b03b0");
+            let bus_lightL = bus_group.circle(180).move(180,1380).fill("#0b03b0");
+            let mirrorR = bus_group.rect(180,300).move(870,900).radius(40).addClass("background_bus");
+            let mirrorL = bus_group.rect(180,300).move(30,900).radius(40).addClass("background_bus");
+            let bus_window = bus_group.rect(800,550).move(140,750).radius(20).fill("#0b03b0");
+            let year_display = bus_group.rect(700,80).move(190,650).radius(20).fill("#0b03b0");
+        } 
+
+        // function that processes the data into a 2D array of points 
+        function process_data_into_lines(scale, interval) {
+            let lines = []; //this will hold the arrays for each year's data 
+            let points = []; //this will hold the points for the year's data
+            boarding_data.forEach(d => {
+                //for each year, fill the points array with points
+                    x_pos = (d.month * interval);
+                    y_pos = baseline - (d.sum * scale);
+                    points.push([x_pos,y_pos]);
+                if (d.month == 12 || (d.Year == 2022 && d.month == 6)) {
+                    lines.push(points);
+                    points = []; // reset points to an empty array
+                }
+            })
+            return lines;
+        }
+
+        //this resets the animation
+        function reset_animation() {
+           // console.log("resetting");
+            SVG.find(".lines").remove();
+            bus_group.clear();
+            bus_group.animate(1000).scale(0.5,0.5);
+            draw_intro();
+            line_color = chroma("#967d64");
+        }
+
+        function clear_lines() {
+            SVG.find(".lines").remove();
+        }
+
+    </script>
+</body>
+</html>

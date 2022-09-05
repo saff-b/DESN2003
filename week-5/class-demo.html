@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello SVG.js!</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+
+
+    <style>
+      .col{
+        stroke-width: 38px;
+        opacity: 0.7;
+        stroke-linecap: round;
+      }
+
+      text.head{
+        font-size: 30px;
+        text-anchor: middle;
+
+      }
+    </style>
+  </head>
+  <body>
+
+      <script type="text/javascript">
+      var xspace = 40;
+      var xmargin = 35;
+      var baseline = 920;
+      var yscale = 0.0012;
+      var w = 540, h = 960; // storybox portrait format 1080 x 1920px
+      var y = 2016;
+      var draw = SVG().addTo('body').size(w, h);
+
+      var colours = ['#ffeeb2','#fed976','#feb24c','#fd8d3c','#f03b20','#bd0026'];
+      var headingText = [
+        "Solar PV is growing fast!",
+        "This data shows output by month",
+        "for NSW and the ACT",
+        "From 2016 to 2021",
+        "output drops in the winter months",
+        "...but it's accelerating overall"
+      ]
+      var data = [
+      {
+        "Year": 2016,
+        "Month": 1,
+        "Output": 114781
+      },
+      {
+        "Year": 2016,
+        "Month": 2,
+        "Output": 123790
+      },
+      {
+        "Year": 2016,
+        "Month": 3,
+        "Output": 110596
+      },
+      {
+        "Year": 2016,
+        "Month": 4,
+        "Output": 87784
+      },
+      {
+        "Year": 2016,
+        "Month": 5,
+        "Output": 80255
+      },
+      {
+        "Year": 2016,
+        "Month": 6,
+        "Output": 57583
+      },
+      {
+        "Year": 2016,
+        "Month": 7,
+        "Output": 71622
+      },
+      {
+        "Year": 2016,
+        "Month": 8,
+        "Output": 91463
+      },
+      {
+        "Year": 2016,
+        "Month": 9,
+        "Output": 104705
+      },
+      {
+        "Year": 2016,
+        "Month": 10,
+        "Output": 140382
+      },
+      {
+        "Year": 2016,
+        "Month": 11,
+        "Output": 151346
+      },
+      {
+        "Year": 2016,
+        "Month": 12,
+        "Output": 138454
+      },
+      {
+        "Year": 2017,
+        "Month": 1,
+        "Output": 138378
+      },
+      {
+        "Year": 2017,
+        "Month": 2,
+        "Output": 121971
+      },
+      {
+        "Year": 2017,
+        "Month": 3,
+        "Output": 100637
+      },
+      {
+        "Year": 2017,
+        "Month": 4,
+        "Output": 109354
+      },
+      {
+        "Year": 2017,
+        "Month": 5,
+        "Output": 90740
+      },
+      {
+        "Year": 2017,
+        "Month": 6,
+        "Output": 71616
+      },
+      {
+        "Year": 2017,
+        "Month": 7,
+        "Output": 98826
+      },
+      {
+        "Year": 2017,
+        "Month": 8,
+        "Output": 126117
+      },
+      {
+        "Year": 2017,
+        "Month": 9,
+        "Output": 151691
+      },
+      {
+        "Year": 2017,
+        "Month": 10,
+        "Output": 155113
+      },
+      {
+        "Year": 2017,
+        "Month": 11,
+        "Output": 169479
+      },
+      {
+        "Year": 2017,
+        "Month": 12,
+        "Output": 170763
+      },
+      {
+        "Year": 2018,
+        "Month": 1,
+        "Output": 182444
+      },
+      {
+        "Year": 2018,
+        "Month": 2,
+        "Output": 156885
+      },
+      {
+        "Year": 2018,
+        "Month": 3,
+        "Output": 155202
+      },
+      {
+        "Year": 2018,
+        "Month": 4,
+        "Output": 137954
+      },
+      {
+        "Year": 2018,
+        "Month": 5,
+        "Output": 122290
+      },
+      {
+        "Year": 2018,
+        "Month": 6,
+        "Output": 91638
+      },
+      {
+        "Year": 2018,
+        "Month": 7,
+        "Output": 131253
+      },
+      {
+        "Year": 2018,
+        "Month": 8,
+        "Output": 154691
+      },
+      {
+        "Year": 2018,
+        "Month": 9,
+        "Output": 178965
+      },
+      {
+        "Year": 2018,
+        "Month": 10,
+        "Output": 182863
+      },
+      {
+        "Year": 2018,
+        "Month": 11,
+        "Output": 213790
+      },
+      {
+        "Year": 2018,
+        "Month": 12,
+        "Output": 286673
+      },
+      {
+        "Year": 2019,
+        "Month": 1,
+        "Output": 281183
+      },
+      {
+        "Year": 2019,
+        "Month": 2,
+        "Output": 253926
+      },
+      {
+        "Year": 2019,
+        "Month": 3,
+        "Output": 228867
+      },
+      {
+        "Year": 2019,
+        "Month": 4,
+        "Output": 214843
+      },
+      {
+        "Year": 2019,
+        "Month": 5,
+        "Output": 188533
+      },
+      {
+        "Year": 2019,
+        "Month": 6,
+        "Output": 148711
+      },
+      {
+        "Year": 2019,
+        "Month": 7,
+        "Output": 191791
+      },
+      {
+        "Year": 2019,
+        "Month": 8,
+        "Output": 241198
+      },
+      {
+        "Year": 2019,
+        "Month": 9,
+        "Output": 279723
+      },
+      {
+        "Year": 2019,
+        "Month": 10,
+        "Output": 341440
+      },
+      {
+        "Year": 2019,
+        "Month": 11,
+        "Output": 367906
+      },
+      {
+        "Year": 2019,
+        "Month": 12,
+        "Output": 372239
+      },
+      {
+        "Year": 2020,
+        "Month": 1,
+        "Output": 337058
+      },
+      {
+        "Year": 2020,
+        "Month": 2,
+        "Output": 293496
+      },
+      {
+        "Year": 2020,
+        "Month": 3,
+        "Output": 297411
+      },
+      {
+        "Year": 2020,
+        "Month": 4,
+        "Output": 262901
+      },
+      {
+        "Year": 2020,
+        "Month": 5,
+        "Output": 238584
+      },
+      {
+        "Year": 2020,
+        "Month": 6,
+        "Output": 208625
+      },
+      {
+        "Year": 2020,
+        "Month": 7,
+        "Output": 227768
+      },
+      {
+        "Year": 2020,
+        "Month": 8,
+        "Output": 320799
+      },
+      {
+        "Year": 2020,
+        "Month": 9,
+        "Output": 370755
+      },
+      {
+        "Year": 2020,
+        "Month": 10,
+        "Output": 412445
+      },
+      {
+        "Year": 2020,
+        "Month": 11,
+        "Output": 490221
+      },
+      {
+        "Year": 2020,
+        "Month": 12,
+        "Output": 444299
+      },
+      {
+        "Year": 2021,
+        "Month": 1,
+        "Output": 497458
+      },
+      {
+        "Year": 2021,
+        "Month": 2,
+        "Output": 413495
+      },
+      {
+        "Year": 2021,
+        "Month": 3,
+        "Output": 394137
+      },
+      {
+        "Year": 2021,
+        "Month": 4,
+        "Output": 421061
+      },
+      {
+        "Year": 2021,
+        "Month": 5,
+        "Output": 328524
+      },
+      {
+        "Year": 2021,
+        "Month": 6,
+        "Output": 261763
+      },
+      {
+        "Year": 2021,
+        "Month": 7,
+        "Output": 315510
+      },
+      {
+        "Year": 2021,
+        "Month": 8,
+        "Output": 420168
+      },
+      {
+        "Year": 2021,
+        "Month": 9,
+        "Output": 509686
+      },
+      {
+        "Year": 2021,
+        "Month": 10,
+        "Output": 592854
+      },
+      {
+        "Year": 2021,
+        "Month": 11,
+        "Output": 472568
+      },
+      {
+        "Year": 2021,
+        "Month": 12,
+        "Output": 621523
+      }
+      ];
+
+
+
+      let yeardata = data.filter(d => d.Year == y); // get data for only the current year
+      var cols = [];
+
+      var back = draw.rect(w,h).stroke("#ddd").fill("none");
+
+      var heading = draw.text("Solar PV is growing fast")
+      .addClass("head")
+      .center(w/2,120)
+
+      var gr = draw.group();
+      yeardata.forEach((d,i) =>{
+        let c = gr.line(xmargin + i *xspace, baseline, xmargin + i*xspace, baseline)
+        .addClass("col")
+        .stroke(colours[y-2016])
+        c.data = d;
+        cols.push(c);
+      })
+
+      var caption = draw.text(""+y).move(100,baseline + 10)
+
+      cols.forEach((c,i) => {
+       c.animate(800,i*150,'now')
+       .plot(xmargin + i*xspace, baseline, xmargin + i*xspace, baseline-c.data.Output*yscale )
+      })
+
+      function update(year){
+        var newgr = draw.group();
+        newgr.back(); // add it to the back
+        
+        let yeardata = data.filter(d => d.Year == year); // get data for only the current year
+        yeardata.forEach((d,i) =>{
+            let l = newgr.line(xmargin + i *xspace, baseline, xmargin + i*xspace, baseline)
+            .stroke(colours[year-2016])
+            .addClass("col");
+
+            l.animate(800,i*150,'now')
+          .plot(xmargin + i*xspace, baseline, xmargin + i*xspace, baseline-d.Output*yscale )
+        })
+
+        heading.text(headingText[year-2016]); // update the heading text
+    
+        caption.text(year)
+        console.log(cols.length)
+      }
+
+      window.setInterval(() => {
+        if (y < 2021){
+          update(y+1);
+          y++;
+        }
+      }, 3000);
+
+
+      </script>
+
+  </body>
+</html>
