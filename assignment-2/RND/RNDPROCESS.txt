@@ -1,0 +1,37 @@
+Options for housing
+
+1) get a spherical object and use that as a mount
+- rigid spheres are difficult to get ahold of in the size needed
+- if someone is willing to drop a couple hundred on this project this is possible, otherwise no
+
+2) 3D print one per orb maker
+- orb maker will generate an hollow orb with 
+- generated orb will have to be split to be printed, printing process means this method would have very little options for failure
+
+3) laser cut a frame
+- could use this process https://www.ponoko.com/blog/how-to-make/creating-laser-cut-3d-forms-super-easily/
+- could also custom design one (with a bit of maths) 
+- benefits: very fast, acrylic is (comparatively) cheap, can be done in clear acrylic if we really want a clear one
+- downsides: will not be completely solid
+- could even do one like this https://www.instructables.com/Laser-Cut-Living-Hinge-Globe-Light/ 
+
+Options for countries
+1) 3d print curved outlines
+- generate outlines of countries and form to the curve of our globe
+- will take a while to print all the countries but relatively hands off approach and has the potential to be accurate
+
+2) laser cut country outlines in segments
+- fast
+- easy
+- will be difficult to align to the sphere - maybe heat forming?
+
+3) handmade wire forming
+- slowest option 
+- i will not be able to do this (as I have arthritis so it would be someone else's job)
+
+4) making a skin (fabric)
+- using textiles, make a skin which fits over the globe
+- this would hide the skeleton
+- lights could shine through the skin, or small holes could be cut
+- potential for some very pretty effects
+- high effort
